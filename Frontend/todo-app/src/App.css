@@ -1,0 +1,60 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(Images/wp4072636-exam-time-wallpapers.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+  background-position: center;
+}
+.loginPage{
+  background-image: url(Images/pexels-deepa-nishad-1620501673-27544698.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.loginForm{
+  background: linear-gradient( rgba(243, 239, 239, 0.096) , rgba(225, 221, 221, 0.096));
+  backdrop-filter: blur(8px);
+  box-shadow:0px 0px 20px rgba(46, 46, 46, 0.7);
+  width: 26rem;
+}
+.signupForm{
+  background: linear-gradient( rgba(243, 239, 239, 0.096) , rgba(225, 221, 221, 0.096));
+  backdrop-filter: blur(8px);
+  box-shadow:0px 0px 20px rgba(46, 46, 46, 0.7);
+  width: 26rem;
+}
+.signupPage{
+  background-image: url(Images/pexels-deepa-nishad-1620501673-27544694.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.addtodoPage{
+  background-image: url(Images/wp8930507-study-laptop-wallpapers.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.addTodo{
+  background: linear-gradient( rgba(243, 239, 239, 0.096) , rgba(225, 221, 221, 0.096));
+  backdrop-filter: blur(8px);
+  box-shadow:0px 0px 20px rgba(46, 46, 46, 0.7);
+  width: 26rem;
+}
