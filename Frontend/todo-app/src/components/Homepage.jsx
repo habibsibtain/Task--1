@@ -11,7 +11,7 @@ export default function Homepage() {
   useEffect(()=>{
     const fetchUser = async () => {
       try {
-        const res = await axios.get("http://localhost:8000/api/v1/user/userinfo" , {
+        const res = await axios.get("https://task-1-1-e4u1.onrender.com/api/v1/user/userinfo" , {
           headers:{
             Authorization:`Bearer ${localStorage.getItem("token")}`
           }

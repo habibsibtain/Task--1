@@ -8,7 +8,7 @@ export default function Feed() {
 
   const fetchNotes = async () => {
     try {
-      const res = await axios.get("http://localhost:8000/api/v1/user/alltodo" , {
+      const res = await axios.get("https://task-1-1-e4u1.onrender.com/api/v1/user/alltodo" , {
         headers:{
           Authorization: `Bearer ${localStorage.getItem("token")}`
         }
@@ -23,7 +23,7 @@ export default function Feed() {
 
   const deleteTodo = (id) => {
     try {
-       axios.delete(`http://localhost:8000/api/v1/user/deletetodo/${id}` ,{
+       axios.delete(`https://task-1-1-e4u1.onrender.com/api/v1/user/deletetodo/${id}` ,{
         headers:{
           Authorization:`Bearer ${localStorage.getItem("token")}`
         }

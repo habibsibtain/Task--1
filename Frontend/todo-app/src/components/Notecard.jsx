@@ -4,7 +4,7 @@ import React from "react";
 export default function Notecard({title , content , id , setTodos ,todos}) {
   const deleteTodo = async (id) => {
     try {
-      const res = await axios.delete(`http://localhost:8000/api/v1/user/deletetodo/${id}` , {
+      const res = await axios.delete(`https://task-1-1-e4u1.onrender.com/api/v1/user/deletetodo/${id}` , {
         headers:{
           Authorization:`Bearer ${localStorage.getItem(token)}`
         }
